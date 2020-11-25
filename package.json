@@ -1,0 +1,64 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration",
+  "main": "index.js",
+  "homepage": "https://github.com/colorful-tones/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colorful-tones/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node fixtures/test-eslint-config --config-file=./index.js",
+    "test:react": "node fixtures/test-eslint-config --config-file=./react.js",
+    "test:wordpress": "node fixtures/test-eslint-config --config-file=./wordpress.js",
+    "test:node": "node fixtures/test-eslint-config --config-file=./node.js"
+  },
+  "author": {
+    "name": "Damon Cook",
+    "url": "https://damonacook.com",
+    "role": "developer"
+  },
+  "bugs": {
+    "url": "https://github.com/colorful-tones/eslint-config/issues"
+  },
+  "license": "GPL-2.0+",
+  "engines": {
+    "node": ">=8.11"
+  },
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsdoc": "^22.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0 || ^1.7.0",
+    "prettier": "^2.0.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^22.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0 || ^1.7.0",
+    "prettier": "^2.0.0"
+  }
+}
